@@ -52,6 +52,11 @@
   - `legacy-app`: v14.21.3 확인
   - `stable-app`: v20.18.0 확인
   - `modern-app`: v22.11.0 확인
+ 
+### 3. 내부망 환경에 Volta 세팅
+  - volta.msi 파일 설치
+  - %LOCALAPPDATA%/Volta/tools 에 image,inventory 붙여넣기
+  - package.json 에 volta관련 설정 추가
 
 ## 🔍 Troubleshooting
 
