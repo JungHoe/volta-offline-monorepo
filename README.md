@@ -20,10 +20,21 @@
 
 ## 📂 Structure
 
-packages/
-├── legacy-app/    # Node 14 + npm
-├── stable-app/    # Node 20 + yarn
-└── modern-app/    # Node 22 + pnpm
+```text
+.
+├── package.json          # Root configuration (Node 22)
+├── packages/
+│   ├── legacy-app/       # Node 14.21.3 + npm
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── stable-app/       # Node 20.18.0 + yarn 1.22.22
+│   │   ├── index.js
+│   │   └── package.json
+│   └── modern-app/       # Node 22.11.0 + pnpm 9.12.3
+│       ├── index.js
+│       └── package.json
+└── README.md
+```
 
 ## 🚀 Quick Start
 
@@ -33,7 +44,14 @@ packages/
 
 ## 📝 Step-by-Step Guide
 
-[상세 설치 과정]
+### 1. 프로젝트 구조 설정
+- 모노레포 구조를 위해 `packages/` 디렉토리를 생성하고 각 앱별로 독립적인 Node.js 버전을 설정했습니다.
+
+### 2. Volta를 통한 버전 자동 전환 검증
+- 모든 패키지 폴더에서 `node -v` 명령어를 사용하여 설정된 버전으로 자동 전환되는지 확인을 완료했습니다.
+  - `legacy-app`: v14.21.3 확인
+  - `stable-app`: v20.18.0 확인
+  - `modern-app`: v22.11.0 확인
 
 ## 🔍 Troubleshooting
 

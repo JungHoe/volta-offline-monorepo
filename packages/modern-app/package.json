@@ -1,0 +1,13 @@
+{
+  "name": "modern-app",
+  "version": "1.0.0",
+  "description": "Modern application using Node 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "volta": {
+    "node": "22.11.0",
+    "pnpm": "9.12.3"
+  }
+}

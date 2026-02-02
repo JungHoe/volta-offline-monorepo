@@ -1,0 +1,13 @@
+{
+  "name": "stable-app",
+  "version": "1.0.0",
+  "description": "Stable application using Node 20",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "volta": {
+    "node": "20.18.0",
+    "yarn": "1.22.22"
+  }
+}

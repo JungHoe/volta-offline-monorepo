@@ -1,0 +1,11 @@
+{
+  "name": "volta-offline-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "22.11.0"
+  }
+}
